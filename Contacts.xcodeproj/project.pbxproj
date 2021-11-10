@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E523200273C014200F8B2BC /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5231FF273C014200F8B2BC /* MainTabBarViewController.swift */; };
 		9EB7373C273B234D007137C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB7373B273B234D007137C9 /* AppDelegate.swift */; };
 		9EB7373E273B234D007137C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB7373D273B234D007137C9 /* SceneDelegate.swift */; };
 		9EB73743273B234D007137C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB73741273B234D007137C9 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E5231FF273C014200F8B2BC /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		9EB73738273B234D007137C9 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB7373B273B234D007137C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB7373D273B234D007137C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				9EB7373B273B234D007137C9 /* AppDelegate.swift */,
 				9EB7373D273B234D007137C9 /* SceneDelegate.swift */,
 				9EB73741273B234D007137C9 /* Main.storyboard */,
+				9E5231FF273C014200F8B2BC /* MainTabBarViewController.swift */,
 				9EE63CF5273BE88B00927FA1 /* DetailsViewController.swift */,
 				9EE63CF3273BE64A00927FA1 /* ContacViewController.swift */,
 				9EB7374F273B23D8007137C9 /* Contacts.swift */,
@@ -150,6 +153,7 @@
 				9EB73754273B2517007137C9 /* ContactsData.swift in Sources */,
 				9EB73750273B23D8007137C9 /* Contacts.swift in Sources */,
 				9EB7373C273B234D007137C9 /* AppDelegate.swift in Sources */,
+				9E523200273C014200F8B2BC /* MainTabBarViewController.swift in Sources */,
 				9EB7373E273B234D007137C9 /* SceneDelegate.swift in Sources */,
 				9EE63CF4273BE64A00927FA1 /* ContacViewController.swift in Sources */,
 				9EE63CF6273BE88B00927FA1 /* DetailsViewController.swift in Sources */,

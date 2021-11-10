@@ -53,13 +53,14 @@
             </objects>
             <point key="canvasLocation" x="-371" y="39"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar View Controller-->
         <scene sceneID="8ab-61-KBS">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nEX-w6-cWM" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nEX-w6-cWM" customClass="MainTabBarViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="fmO-zl-ygg"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cFw-LD-FUE">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
