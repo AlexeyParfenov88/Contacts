@@ -15,6 +15,7 @@
 		9EB73750273B23D8007137C9 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB7374F273B23D8007137C9 /* Contacts.swift */; };
 		9EB73754273B2517007137C9 /* ContactsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB73753273B2517007137C9 /* ContactsData.swift */; };
 		9EE63CF4273BE64A00927FA1 /* ContacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE63CF3273BE64A00927FA1 /* ContacViewController.swift */; };
+		9EE63CF6273BE88B00927FA1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE63CF5273BE88B00927FA1 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9EB7374F273B23D8007137C9 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		9EB73753273B2517007137C9 /* ContactsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsData.swift; sourceTree = "<group>"; };
 		9EE63CF3273BE64A00927FA1 /* ContacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContacViewController.swift; sourceTree = "<group>"; };
+		9EE63CF5273BE88B00927FA1 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9EB7373B273B234D007137C9 /* AppDelegate.swift */,
 				9EB7373D273B234D007137C9 /* SceneDelegate.swift */,
 				9EB73741273B234D007137C9 /* Main.storyboard */,
+				9EE63CF5273BE88B00927FA1 /* DetailsViewController.swift */,
 				9EE63CF3273BE64A00927FA1 /* ContacViewController.swift */,
 				9EB7374F273B23D8007137C9 /* Contacts.swift */,
 				9EB73753273B2517007137C9 /* ContactsData.swift */,
@@ -149,6 +152,7 @@
 				9EB7373C273B234D007137C9 /* AppDelegate.swift in Sources */,
 				9EB7373E273B234D007137C9 /* SceneDelegate.swift in Sources */,
 				9EE63CF4273BE64A00927FA1 /* ContacViewController.swift in Sources */,
+				9EE63CF6273BE88B00927FA1 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
