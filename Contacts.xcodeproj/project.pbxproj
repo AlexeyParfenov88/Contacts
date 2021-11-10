@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E523200273C014200F8B2BC /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5231FF273C014200F8B2BC /* MainTabBarViewController.swift */; };
+		9E523206273C358E00F8B2BC /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523205273C358E00F8B2BC /* ContactInfoViewController.swift */; };
 		9EB7373C273B234D007137C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB7373B273B234D007137C9 /* AppDelegate.swift */; };
 		9EB7373E273B234D007137C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB7373D273B234D007137C9 /* SceneDelegate.swift */; };
 		9EB73743273B234D007137C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB73741273B234D007137C9 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		9E5231FF273C014200F8B2BC /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		9E523205273C358E00F8B2BC /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
 		9EB73738273B234D007137C9 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB7373B273B234D007137C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB7373D273B234D007137C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E523201273C305A00F8B2BC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9EB7373B273B234D007137C9 /* AppDelegate.swift */,
+				9EB7373D273B234D007137C9 /* SceneDelegate.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9E523202273C306A00F8B2BC /* Storybords */ = {
+			isa = PBXGroup;
+			children = (
+				9EB73741273B234D007137C9 /* Main.storyboard */,
+				9EB73746273B234D007137C9 /* LaunchScreen.storyboard */,
+			);
+			path = Storybords;
+			sourceTree = "<group>";
+		};
+		9E523203273C307F00F8B2BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E5231FF273C014200F8B2BC /* MainTabBarViewController.swift */,
+				9EE63CF5273BE88B00927FA1 /* DetailsViewController.swift */,
+				9E523205273C358E00F8B2BC /* ContactInfoViewController.swift */,
+				9EE63CF3273BE64A00927FA1 /* ContacViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9E523204273C308C00F8B2BC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9EB73744273B234D007137C9 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		9EB7372F273B234D007137C9 = {
 			isa = PBXGroup;
 			children = (
@@ -64,16 +103,12 @@
 		9EB7373A273B234D007137C9 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				9EB7373B273B234D007137C9 /* AppDelegate.swift */,
-				9EB7373D273B234D007137C9 /* SceneDelegate.swift */,
-				9EB73741273B234D007137C9 /* Main.storyboard */,
-				9E5231FF273C014200F8B2BC /* MainTabBarViewController.swift */,
-				9EE63CF5273BE88B00927FA1 /* DetailsViewController.swift */,
-				9EE63CF3273BE64A00927FA1 /* ContacViewController.swift */,
+				9E523201273C305A00F8B2BC /* Config */,
+				9E523202273C306A00F8B2BC /* Storybords */,
+				9E523203273C307F00F8B2BC /* ViewControllers */,
 				9EB7374F273B23D8007137C9 /* Contacts.swift */,
 				9EB73753273B2517007137C9 /* ContactsData.swift */,
-				9EB73744273B234D007137C9 /* Assets.xcassets */,
-				9EB73746273B234D007137C9 /* LaunchScreen.storyboard */,
+				9E523204273C308C00F8B2BC /* Sources */,
 				9EB73749273B234D007137C9 /* Info.plist */,
 			);
 			path = Contacts;
@@ -151,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EB73754273B2517007137C9 /* ContactsData.swift in Sources */,
+				9E523206273C358E00F8B2BC /* ContactInfoViewController.swift in Sources */,
 				9EB73750273B23D8007137C9 /* Contacts.swift in Sources */,
 				9EB7373C273B234D007137C9 /* AppDelegate.swift in Sources */,
 				9E523200273C014200F8B2BC /* MainTabBarViewController.swift in Sources */,

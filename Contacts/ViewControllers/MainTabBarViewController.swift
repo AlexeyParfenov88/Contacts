@@ -19,13 +19,13 @@ class MainTabBarViewController: UITabBarController {
     // MARK: - Navigation
     private func setupViewControllers() {
         let persons = Person.getContactList()
-        guard let contactsListVC = viewControllers?.first as? ContacViewController
+        guard let contactVC = viewControllers?.first as? ContacViewController
         else { return }
-        guard let fullListVC = viewControllers?.last as? DetailsViewController
+        guard let detailsVC = viewControllers?.last as? DetailsViewController
         else { return }
         
-        contactsListVC.persons = persons
-        fullListVC.persons = persons
+        contactVC.persons = persons
+        detailsVC.persons = persons
     }
     
 }
