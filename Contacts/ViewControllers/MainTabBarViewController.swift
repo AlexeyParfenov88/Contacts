@@ -11,14 +11,12 @@ class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViewControllers()
+        setViewControllers()
     }
     
-
-    
     // MARK: - Navigation
-    private func setupViewControllers() {
-        let persons = Person.getContactList()
+    private func setViewControllers() {
+        let persons = Person.getContact()
         guard let contactVC = viewControllers?.first as? ContacViewController
         else { return }
         guard let detailsVC = viewControllers?.last as? DetailsViewController

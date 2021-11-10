@@ -84,6 +84,15 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		9E523207273C48A800F8B2BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EB7374F273B23D8007137C9 /* Contacts.swift */,
+				9EB73753273B2517007137C9 /* ContactsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9EB7372F273B234D007137C9 = {
 			isa = PBXGroup;
 			children = (
@@ -106,8 +115,7 @@
 				9E523201273C305A00F8B2BC /* Config */,
 				9E523202273C306A00F8B2BC /* Storybords */,
 				9E523203273C307F00F8B2BC /* ViewControllers */,
-				9EB7374F273B23D8007137C9 /* Contacts.swift */,
-				9EB73753273B2517007137C9 /* ContactsData.swift */,
+				9E523207273C48A800F8B2BC /* Model */,
 				9E523204273C308C00F8B2BC /* Sources */,
 				9EB73749273B234D007137C9 /* Info.plist */,
 			);

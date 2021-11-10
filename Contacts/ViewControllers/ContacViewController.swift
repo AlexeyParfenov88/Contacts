@@ -10,10 +10,7 @@ import UIKit
 class ContacViewController: UITableViewController {
 
     var persons: [Person]!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         persons.count
     }
