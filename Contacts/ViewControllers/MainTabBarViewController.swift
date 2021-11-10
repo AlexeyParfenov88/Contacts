@@ -8,13 +8,12 @@
 import UIKit
 
 class MainTabBarViewController: UITabBarController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setViewControllers()
     }
     
-    // MARK: - Navigation
     private func setViewControllers() {
         let persons = Person.getContact()
         guard let contactVC = viewControllers?.first as? ContacViewController

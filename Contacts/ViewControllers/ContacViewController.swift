@@ -8,7 +8,7 @@
 import UIKit
 
 class ContacViewController: UITableViewController {
-
+    
     var persons: [Person]!
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -25,8 +25,6 @@ class ContacViewController: UITableViewController {
         return cell
     }
     
-    // MARK: - Navigation
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let tappedRowIndex = tableView.indexPathForSelectedRow?.row {
             guard let contactInfoVC = segue.destination as? ContactInfoViewController
