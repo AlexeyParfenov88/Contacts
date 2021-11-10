@@ -9,12 +9,8 @@ import UIKit
 
 class ContactInfoViewController: UIViewController {
 
-    
     @IBOutlet var phoneLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
-    
-    
-    
     
     var person: Person!
     

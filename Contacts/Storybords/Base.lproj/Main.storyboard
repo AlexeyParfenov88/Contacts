@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Contacts-->
         <scene sceneID="5uC-i6-cVf">
             <objects>
                 <tableViewController id="hxu-eU-AdX" customClass="ContacViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,8 +34,8 @@
                             <outlet property="delegate" destination="hxu-eU-AdX" id="ref-xC-dm0"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="xdR-Vd-HXs"/>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="nxk-sl-xQP"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="info" catalog="system" id="xdR-Vd-HXs"/>
+                    <navigationItem key="navigationItem" title="Contacts" id="nxk-sl-xQP"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAb-aP-bSI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5bn-WM-lgY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2264" y="-202"/>
+            <point key="canvasLocation" x="2259" y="-206"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Xfu-qb-7M1">
@@ -144,7 +144,7 @@
                             <outlet property="delegate" destination="LAO-Vr-c3O" id="ZQH-Iy-dDb"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="tYl-DR-Jw8"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="book" catalog="system" id="tYl-DR-Jw8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TSK-5Y-mF7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -152,6 +152,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="info" catalog="system" width="93" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
