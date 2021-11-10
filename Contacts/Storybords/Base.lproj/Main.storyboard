@@ -34,7 +34,7 @@
                             <outlet property="delegate" destination="hxu-eU-AdX" id="ref-xC-dm0"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" image="info" catalog="system" id="xdR-Vd-HXs"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="info" catalog="system" id="xdR-Vd-HXs"/>
                     <navigationItem key="navigationItem" title="Contacts" id="nxk-sl-xQP"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAb-aP-bSI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -121,7 +121,7 @@
             </objects>
             <point key="canvasLocation" x="518.84057971014499" y="39.508928571428569"/>
         </scene>
-        <!--Item-->
+        <!--Details-->
         <scene sceneID="pkK-qX-y78">
             <objects>
                 <tableViewController id="LAO-Vr-c3O" customClass="DetailsViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
@@ -144,7 +144,7 @@
                             <outlet property="delegate" destination="LAO-Vr-c3O" id="ZQH-Iy-dDb"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" image="book" catalog="system" id="tYl-DR-Jw8"/>
+                    <tabBarItem key="tabBarItem" title="Details" image="book" catalog="system" id="tYl-DR-Jw8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TSK-5Y-mF7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
